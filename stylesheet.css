@@ -1,0 +1,78 @@
+#mainheader {
+	height: 40px;
+	background-color: #36393D;
+	top: 0;
+	vertical-align: baseline;
+	border: 0;
+	padding: 0;
+}
+
+#menu {
+	height: 40px;
+	color: white;
+	float: left;
+	margin-top: -5px;
+	padding: 0px;
+}
+
+.headerlink {
+	height: 30px;
+	display: inline;
+	margin-left: 0px;
+	margin-right: 15px;
+	margin-bottom: -40px;
+	padding: 0px;
+}
+
+#nav {
+	border: 0;
+	padding: 0;
+}
+
+#login {
+	color: white;
+	float: right;
+	margin-top: -5px;
+}
+
+#navbar {
+	width: 1200px;
+	margin: 0 auto;
+	height: 40px;
+	padding: 15px, 0;
+}
+
+#mainsection {
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+#left {
+	margin-left: 0px;
+	margin-top: 30px;
+	position: relative;
+	float: left;
+}
+
+#top {
+	position: relative;
+	float: right;
+}
+
+#h {
+	font: verdana;
+}
+
+#pictwo {
+	margin-top: 30px;
+}
+
+h1, p {
+	font-family: 'Oxygen', sans-serif;
+}
+
+#center {
+
+}
