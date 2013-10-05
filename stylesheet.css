@@ -1,10 +1,10 @@
 #mainheader {
-	height: 40px;
 	background-color: #36393D;
 	top: 0;
 	vertical-align: baseline;
-	border: 0;
-	padding: 0;
+	border: 0px;
+	padding: 0px;
+	margin: -10px;
 }
 
 #menu {
@@ -24,6 +24,17 @@
 	padding: 0px;
 }
 
+.loginlink {
+	height: 30px;
+	display: inline;
+	margin-left: 0px;
+	margin-right: 15px;
+	margin-bottom: -40px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+
 #nav {
 	border: 0;
 	padding: 0;
@@ -35,11 +46,33 @@
 	margin-top: -5px;
 }
 
+#toph {
+	color: white;
+	text-align: center;
+	padding: 20px 100px;
+	margin-left: 500px;
+	background-color: orange;
+	position: absolute;
+	margin-top: 200px;
+	opacity: .90;
+
+}
+
 #navbar {
 	width: 1200px;
 	margin: 0 auto;
 	height: 40px;
 	padding: 15px, 0;
+}
+
+#toparea {
+	background-image: url(http://www.art21.org/files/images/opie-art-2004-001-amercities-untitled02chicago.jpg);
+	width: 1450px;
+	height: 500px;
+	padding: 0px;
+	margin: -15px;
+	margin-top: 10px;
+
 }
 
 #mainsection {
@@ -54,6 +87,7 @@
 	margin-top: 30px;
 	position: relative;
 	float: left;
+	width: 300px;
 }
 
 #top {
@@ -67,4 +101,82 @@
 
 h1, p {
 	font-family: 'Oxygen', sans-serif;
+}
+
+.headerlink:hover {
+	color: orange;
+	cursor:pointer;	
+}
+
+.loginlink:hover {
+	color: orange;
+	cursor:pointer;	
+}
+
+.headerlink:link {
+	color: white;
+}
+
+.loginlink:link {
+	color: white;
+}
+
+#center {
+	width: 500px;
+	margin-left: 80px;
+	margin-top: 30px;
+	position: relative;
+	float: left;
+}
+
+#pic2 {
+	margin-top: 40px;
+}
+
+.newspic {
+	float: left;
+}
+
+.news {
+	margin-left: 100px;
+}
+
+.black_overlay{
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index:1001;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=80);
+            cursor: default;
+        }
+.white_content {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            height: 50%;
+            padding: 16px;
+            border: 3px solid gray;
+            background-color: white;
+            z-index:1002;
+            overflow: auto;
+            float: left;
+            cursor: default;
+            }
+
+#lightboxclose {
+	position: relative;
+	float: right;
+}
+
+#lightboxcontent {
+	float: left;
+	position: relative;
 }
